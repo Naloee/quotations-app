@@ -18,10 +18,13 @@ console.log(text, author)
 })
 
 function addQuote(quote, author){
-const p = document.createElement("p")
-p.className = "text"
-text = textContent= quote
-p.className = "author"
-text = textContent= author
+
+const paragrapgText = document.createElement("p")
+paragrapgText.className = "text"
+paragrapgText = textContent= quote
+
+const nameAuthor = document.createElement("p")
+nameAuthor.className= "author"
+nameAuthor = textContent= author
 
 }
