@@ -5,7 +5,7 @@ const buttonSubmit = document.getElementById("submit-quote")
 const quoteList = document.getElementById("quote-list")
 const quoteText = document.getElementsByClassName("text")
 const authorQuote = document.getElementsByClassName("author")
-const p = document.createElement("p")
+
 
 
 
@@ -17,5 +17,5 @@ console.log(text, author)
 })
 
 function addQuote(quote, author){
-
+const p = document.createElement("p")
 }
