@@ -3,8 +3,9 @@ const quote = document.getElementById("quote")
 const authorName = document.getElementById("author-name")
 const buttonSubmit = document.getElementById("submit-quote")
 const quoteList = document.getElementById("quote-list")
+const quoteCount = document.getElementById("count")
 
-
+let quoteNumber= 1
 
 containerForm.addEventListener(("submit"),(event) =>{ event.preventDefault()
 const text = quote.value
@@ -31,7 +32,9 @@ containerQuote.className = "quote"
 containerQuote.appendChild(quoteText)
 containerQuote.appendChild(authorQuote)
 
-
-
 quoteList.appendChild(containerQuote)
+quoteNumber +=1
+quoteCount.innerText = quoteNumber
+
 }
+
