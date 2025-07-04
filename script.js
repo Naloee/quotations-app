@@ -17,5 +17,5 @@ console.log(text, author)
 })
 
 function addQuote(quote, author){
-const p = document.createElement("p")
+const text = document.createElement("p")
 }
