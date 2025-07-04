@@ -3,10 +3,6 @@ const quote = document.getElementById("quote")
 const authorName = document.getElementById("author-name")
 const buttonSubmit = document.getElementById("submit-quote")
 const quoteList = document.getElementById("quote-list")
-const containerQuote = document.getElementsByClassName("quote")
-const quoteText = document.getElementsByClassName("text")
-const authorQuote = document.getElementsByClassName("author")
-
 
 
 
